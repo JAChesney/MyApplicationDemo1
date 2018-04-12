@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jasonchesney.myapplicationdemo1.MainActivity">
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="email"
+        android:id="@+id/t1"
+
+        />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="password"
+        android:layout_below="@+id/e1"
+        android:id="@+id/t2"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/t1"
+        android:id="@+id/e1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/t2"
+        android:id="@+id/e2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/e2"
+        android:text="signin"
+        android:id="@+id/b1"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/b1"
+        android:text="signup"
+        android:id="@+id/b2"
+        />
+
+
+</RelativeLayout>
+
